@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    background-color:#fc035a; 
+    
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar a1{
+    font-weight: 600;
+    font-family: neue-haas-grotesk-display;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navdiv1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
 }
 
-.App-link {
-  color: #61dafb;
+.navdiv1 h1{
+    color:aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Navbar a{
+    color:white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.card{
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family:neue-haas-grotesk-display;
+    color: white;
+    margin: auto;
+    gap: 50px;
+    margin-top: 60px;
+   
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+}
+
+.art{
+    height: 200px;
+    width: 100%;  
+    color: #FFFFFF; 
+}
+.sp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 100px;
+    font-size: 20px;
+
+}
+.sp1 h2{
+    font-size: 20px;
+} 
+/* .art hr{
+    width: 900px;
+} */
+
+
+.art1{
+    height: 200px;
+    width: 100%;
+    color: #FFFFFF;
+    /* margin: auto; */
+    margin-left: 5px;
+
+}
+.art1 .sp2 h2{
+    font-size: 20px;
+
+}
+
+.sp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 200px;
+    font-size: 17px;
+
+}
+
+
+/* .art1 hr{
+    width: 200px;
+} */
+
+.art1{
+    height: 200px;
+    width: 60%;
+
+}
+
+.card div h5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card div button{
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.sp1 p{
+    font-size: 18px;
 }
